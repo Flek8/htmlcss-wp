@@ -1,0 +1,121 @@
+/* Regole generali*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+/* Fine Regole generali*/
+
+/* Regole Header*/
+.intestazione{
+    padding-right: 2%;
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 15px;
+    border-right: 2px solid lightgray;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+}
+.menu li a{
+    text-decoration: none;
+    padding-right: 3px;
+    color: gray;
+}
+#banner{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.sect-1{
+    margin: 15px 0;
+    position: relative;
+    border-radius: 15px;
+}
+#banner{
+    border-radius: 15px;
+}
+/* Fine Regole Header*/
+
+/* Regole overlay*/
+.overlay{
+    border-radius: 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.35;
+}
+.contenuto{
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    color: white;
+}
+.contenitore{
+    font-size: 0;
+    position: relative;
+}
+/* Fine Regole overlay*/
+
+/*Regole Corpo della pagina*/
+.title h1{
+    font-weight: bold;
+}
+.title span{
+    color: gray;
+}
+
+.sidebar-sx,.sidebar-dx{
+    position: relative;
+    width: 20%;
+    float: left;
+    margin: 20px 0;}
+.articolo{
+    margin-top: 10px;
+}
+.articolo p{
+    color: gray;
+}
+.content{    
+    position: relative;
+    width: 56%;
+    margin: 20px 2%;
+    float: left;
+}
+.article-img{
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.clearfix{
+    clear: both;
+}
+/* Fine Regole Corpo della pagina*/
+
+/* Regole Footer*/
+footer{
+    margin-bottom: 20px;
+   text-align: center;
+}
+footer mark{
+    background-color: white;
+    color: red;
+    font-size: 1.5em;
+}
+/* Fine Regole Footer*/
